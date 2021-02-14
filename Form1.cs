@@ -24,7 +24,8 @@ namespace WindowsFormsApp1
 
         private void MnuAcerca_Click(object sender, System.EventArgs e)
         {
-            MessageBox.Show("Primera App en C#\nVersion 1.0");
+            frmAbout  f2 = new frmAbout();
+            f2.ShowDialog();
         }
 
         private void mnuSalir_Click(object sender, System.EventArgs e)
